@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+#header {
+  height: 10%;
+  background-color: #ffff;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#header h3 {
+  padding: 10px;
+  margin-left: 60px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 3px;
+}
+/* navigation */
+.nav {
+  width: 35%;
+  padding: 20px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  color: #747272;
+}
+
+/* mobile navigation */
+
+#mobile-container {
+  width: 100%;
+  height: max-content;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+  position: sticky;
+  top: 10%;
+  display: none;
+}
+#mobile-container li {
+  padding: 20px;
+  list-style: none;
+}
+
+#mobile-container a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  color: #747272;
+}
+
+#home {
+  color: black;
+}
+
+.section1 {
+  width: 95%;
+
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../Images/james-pond-Z0uzZSM5i4M-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#content1 {
+  width: 45%;
+  height: 50%;
+  float: right;
+  padding: 40px;
+  margin-right: 8%;
+  margin-top: 100px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(32, 32, 32, 0.856);
+}
+
+.section2 {
+  background-image: url("../Images/pexels-negative-space-97076.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content2 {
+  width: 50%;
+  height: 50%;
+  float: left;
+  color: rgba(245, 245, 245, 0.815);
+  margin-top: 100px;
+  margin-left: 10%;
+  padding: 40px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+#footer {
+  width: 100%;
+  height: 32%;
+  background-color: #262020;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 42px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact {
+  text-align: left;
+}
+
+#copyright {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#menu {
+  width: 6%;
+  height: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+  #content1,
+  #content2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .nav {
+    display: none;
+  }
+  #menu {
+    display: block;
+    margin-right: 40px;
+  }
+
+  #header {
+    justify-content: space-between;
+  }
+
+  .section1 {
+    width: 90%;
+    height: max-content;
+    background-color: #cfcfcf;
+    background-image: none;
+  }
+
+  #content1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    font-size: 17px;
+    float: none;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .section2 {
+    width: 90%;
+    background-image: url("../Images/pexels-negative-space-97076-copy.jpg");
+    height: max-content;
+  }
+
+  #content2 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    font-size: 17px;
+    float: none;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #contact {
+    font-size: 50%;
+    text-align: left;
+  }
+
+  #copyright {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+}

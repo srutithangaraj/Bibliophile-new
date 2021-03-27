@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/critique.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header  -->
+
+    <div id="header">
+      <div>
+        <h3>Bibliophile</h3>
+      </div>
+      <div class="nav">
+        <ul class="nav-list">
+          <li><a id="home" href="./index.html">Home</a></li>
+          <li><a id="review" href="./review.html">Review</a></li>
+          <li><a id="critique" href="./critique.html">Critique</a></li>
+        </ul>
+      </div>
+
+      <img src="./Images/menu.png" id="menu" onclick="handleMenu()" />
+
+    </div>
+
+    <div id='mobile-container'>
+
+      <ul class="mobile-nav-list">
+        <li><a id="m-home" href="./index.html">Home</a></li>
+        <hr>
+        <li><a id="m-review" href="./review.html">Review</a></li>
+        <hr>
+
+        <li><a id="m-contact" href="./critique.html">Critique</a></li>
+      </ul>
+
+    </div>
+
+
+    </div>
+
+    <!-- header  -->
+    <div class="section1">
+      <h3 id="critiquehead">Critiques</h3>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="critic">
+          <div class="critic-img">
+            <img src="./Images/Picture5.jpg" />
+          </div>
+          <div class="critique-content">
+            <div class="critique-title">
+              <p>
+                The Alchemist is a fantastic book and the storytelling is
+                beautiful. The choice of words are impeccable, full of wisdom
+                and philosophy . I totally loved it. The story is very
+                enchanting and bursts with optimism which I think is very
+                important in our lives. The book shows that the journey to your
+                destiny is as important as the destiny itself. I love how the
+                book emphasizes on the importance of faith, hope and
+                spirituality through the story of an ordinary boy. Overall,”The
+                Alchemist”is a very exciting fiction novel and it deserves a
+                space at everyone’s bookshelf.
+              </p>
+            </div>
+            <div id="name">-Bryce Walker</div>
+          </div>
+        </div>
+
+        <div class="critic">
+          <div class="critic-img">
+            <img src="./Images/images1.png" />
+          </div>
+          <div class="critique-content">
+            <div class="critique-title">
+              <p>
+                Think like a monk this is the best book I’ve ever read. The
+                cover picture of this book is amazing. You don’t have to be a
+                monk to think like a monk. Well, this book teaches us a lot ..
+                When you think like a monk you’ll understand: How to stop
+                overthinking, How to use fear, how to overcome negativity, why
+                comparison kills love, how to use your fear, why you are not
+                your thoughts, how to find your purpose, why you can’t find
+                happiness by looking for it, how to learn from everyone you
+                meet, why kindness is crucial to success and much more..
+              </p>
+            </div>
+            <div id="name">-Clay Jenson</div>
+          </div>
+        </div>
+        <div class="critic">
+          <div class="critic-img">
+            <img src="./Images/shutterstock_1433809409.png" />
+          </div>
+          <div class="critique-content">
+            <div class="critique-title">
+              <p>
+                Attitude is everything What do I like about this book is - The
+                overall motivational tone of the book, that creates a positive
+                drive within yourself - To-the-point crisp writing, without
+                being verbose at all (unlike some other books which keep
+                reiterating the same points through multiple pages) - Powerful
+                examples from history - Great quotes by famous men. It is just a
+                treat to read all these famous words by eminent people. - The
+                book justifies its title ‘Attitude is everything’ through its
+                content.
+              </p>
+            </div>
+            <div id="name">-Jessica Davis</div>
+          </div>
+        </div>
+        <div class="critic">
+          <div class="critic-img">
+            <img src="./Images/pexels-photo-1239291.png" />
+          </div>
+          <div class="critique-content">
+            <div class="critique-title">
+              <p>
+                The power of Subconscious Mind Very useful book...good for
+                maintaining a calm mental health and it contains so many
+                inspirational incidents where the power of subconscious mind
+                changed the life of so many persons...must read book...highly
+                recommended for youngsters to build a good future...
+              </p>
+            </div>
+            <div id="name">-Hanna Baker</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <div id="footer">
+      <div>
+        <p id="copyright">@2021 Copyrights: Bibliophile</p>
+      </div>
+      <div id="contact">
+        <b><u> Contact Us:</u></b
+        ><br />
+        <br />
+
+        <span style="color: rgb(179, 179, 179)"><b>Name:</b></span
+        >&nbsp;Sruti Thangaraj<br />
+
+        <span style="color: rgb(179, 179, 179)"><b>Email:</b></span
+        >&nbsp;srutithangaraj2001@gmail.com <br />
+        <span style="color: rgb(179, 179, 179)"><b>Phone Number:</b></span
+        >&nbsp;+91 9832418842
+      </div>
+    </div>
+    <!-- Footer  -->
+
+
+    
+    <script>
+      function handleMenu() {
+        var x = document.getElementById("mobile-container");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+  </body>
+</html>

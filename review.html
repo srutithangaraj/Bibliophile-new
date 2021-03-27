@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/review.css" />
+    <title>Review</title>
+  </head>
+  <body>
+    <!-- header  -->
+    <div id="header">
+      <div>
+        <h3>Bibliophile</h3>
+      </div>
+      <div class="nav">
+        <ul class="nav-list">
+          <li><a id="home" href="./index.html">Home</a></li>
+          <li><a id="review" href="./review.html">Review</a></li>
+          <li><a id="contact" href="./critique.html">Critique</a></li>
+        </ul>
+      </div>
+      <img src="./Images/menu.png" id="menu" onclick="handleMenu()" />
+    </div>
+
+    <div id="mobile-container">
+      <ul class="mobile-nav-list">
+        <li><a id="m-home" href="./index.html">Home</a></li>
+        <hr />
+        <li><a id="m-review" href="./review.html">Review</a></li>
+        <hr />
+
+        <li><a id="m-contact" href="./critique.html">Critique</a></li>
+      </ul>
+    </div>
+
+    <!-- header  -->
+
+    <div class="section1">
+      <h3 id="reviewhead">Reviews</h3>
+    </div>
+    <div class="container">
+      <div class="content">
+        <div class="book">
+          <div class="book-img">
+            <img src="./Images/Picture1.jpg" />
+          </div>
+
+          <div class="book-title">
+            <b> "Attitude Is Everything" by Dr. Joseph Murphy.</b>
+            <br />
+            <br />
+            Your thoughts dominate and drive your circumstances, your attitude
+            towards life and people is your window to your world. Whether you
+            think you can, or you think you can’t, you’re right.
+            <br />
+            <b
+              ><a
+                href="#"
+                style="text-decoration: none; color: rgb(216, 83, 83)"
+                >Read More....</a
+              ></b
+            >
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="book-img">
+            <img src="./Images/Picture2.jpg" />
+          </div>
+          <div class="book-title">
+            <b>"The Power Of Subconscious Mind" by Dr Joseph Murphy</b>
+            <br />
+            <br />
+
+            Our subconscious can be thought of as your book of life. The
+            thoughts, beliefs, opinions and theories you chose to write and
+            impress on your subconscious mind is what you will experience
+            through physical circumstances and events.
+            <br />
+            <b
+              ><a
+                href="#"
+                style="text-decoration: none; color: rgb(216, 83, 83)"
+                >Read More....</a
+              ></b
+            >
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="book-img">
+            <img src="./Images/Picture3.jpg" />
+          </div>
+          <div class="book-title">
+            <b>"Think Like A Monk" by Jay Shetty</b>
+            <br />
+            <br />
+
+            Jay Shetty, social media superstar and host of the number one
+            podcast On Purpose, distills the timeless wisdom he learned as a
+            monk into practical steps anyone can take every day to live a less
+            anxious, more meaningful life. When you think like a monk, you’ll
+            understand
+            <br />
+            <b
+              ><a
+                href="#"
+                style="text-decoration: none; color: rgb(216, 83, 83)"
+                >Read More....</a
+              ></b
+            >
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="book-img">
+            <img src="./Images/Picture4.jpg" />
+          </div>
+          <div class="book-title">
+            <b>"The Alchemist" by Paulo Coelho </b>
+            <br />
+            <br />
+
+            A recurring dream troubles Santiago, a young and adventurous
+            Andalusian shepherd. He has the dream every time he sleeps under a
+            sycamore tree that grows out of the ruins of a church.
+            <br />
+            <b
+              ><a
+                href="#"
+                style="text-decoration: none; color: rgb(216, 83, 83)"
+                >Read More....</a
+              ></b
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer  -->
+    <div id="footer">
+      <div>
+        <p id="copyright">@2021 Copyrights: Bibliophile</p>
+      </div>
+      <div id="contact">
+        <b><u> Contact Us:</u></b
+        ><br />
+        <br />
+
+        <span style="color: rgb(179, 179, 179)"><b>Name:</b></span
+        >&nbsp;Sruti Thangaraj<br />
+
+        <span style="color: rgb(179, 179, 179)"><b>Email:</b></span
+        >&nbsp;srutithangaraj2001@gmail.com <br />
+        <span style="color: rgb(179, 179, 179)"><b>Phone Number:</b></span
+        >&nbsp;+91 9832418842
+      </div>
+    </div>
+    <!-- Footer  -->
+
+    <script>
+      function handleMenu() {
+        var x = document.getElementById("mobile-container");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
